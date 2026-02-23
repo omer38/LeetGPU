@@ -5,7 +5,7 @@ import triton.language as tl
 
 @triton.jit
 def invert_kernel(image, width, height, BLOCK_SIZE: tl.constexpr):
-    
+    pass
 
 
 # image is a tensor on the GPU
